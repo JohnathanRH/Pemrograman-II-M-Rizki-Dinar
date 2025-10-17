@@ -1,8 +1,6 @@
 package soal2;
-import java.util.Scanner;
 
 public class Negara {
-    private Scanner sc = new Scanner(System.in);
     protected String nama, jenis, nm_pemimpin;
     protected int tgl_merdeka, bln_merdeka, thn_merdeka;
 
