@@ -69,8 +69,8 @@ public class Menu {
         {
             System.out.println(
                 "Mahasiswa ditemukan: \n"+
-                "Nama: "+mhs.nama+"\n"+
-                "NIM: "+mhs.nim+"\n"
+                "Nama: "+mhs.getNama()+"\n"+
+                "NIM: "+mhs.getNim()+"\n"
             );
         }
         else{System.out.println("Mahasiswa dengan NIM "+nim+" Tidak ditemukan!");}
